@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'TableScrollNavigation_Example', :exclusive => true do
+  pod 'TableScrollNavigation', :path => '../'
+end
+
+target 'TableScrollNavigation_Tests', :exclusive => true do
+  pod 'TableScrollNavigation', :path => '../'
+
+  
+end
