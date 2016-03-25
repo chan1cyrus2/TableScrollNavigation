@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '47D058ED913E44C7A4EF5058'
+               BlueprintIdentifier = '5F3B810C6A819385C489A8C2'
                BlueprintName = 'TableScrollNavigation'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'TableScrollNavigation.framework'>

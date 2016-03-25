@@ -1,9 +1,9 @@
 {
   "name": "TableScrollNavigation",
   "version": "0.1.0",
-  "summary": "A short description of TableScrollNavigation.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/TableScrollNavigation",
+  "summary": "A subclass of UINavigationController that provides a table on top of navigation bar to show the stack of the navigations",
+  "description": "This CocoaPod provides the ability to show a stack of navigation on your app through a table at the top of navigation bar. The table is scrolling to maximize the content view. It is similar to the navigation bar you can see in Explore tab of the App Store where users can see their navigation stacks of the categories and sub-categories that they select",
+  "homepage": "https://github.com/chan1cyrus2/TableScrollNavigation",
   "license": "MIT",
   "authors": {
     "Cyrus Chan": "chan1cyrus2@gmail.com"
