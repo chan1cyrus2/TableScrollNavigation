@@ -7,18 +7,54 @@
 //
 
 import UIKit
+import TableScrollNavigation
 
-class ViewController: UIViewController {
+class ViewController: TableScrollNavigationViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    var section:Int!
+    
     override func viewDidLoad() {
+        // Step 1: attach the scrollview
+        attachScrollableView(tableView)
+        
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        if title == nil{
+            title = "Home"
+            section = 1
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 }
 
+extension ViewController: UITableViewDataSource, UITableViewDelegate{
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 100
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
+        cell.textLabel?.text = "Row \(section).\(indexPath.row + 1)"
+        return cell
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        // Get the associated category item
+        let vc = self.storyboard?.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
+        if let nc = navigationController as? TableScrollNavigationController{
+            vc.section = section+1
+            vc.title = "Row \(section).\(indexPath.row + 1)"
+            
+            // Step 2: call pushViewController to push a view controller to stack and also add the name of the previous controller to the table on navigation bar
+            nc.pushViewController(vc, animated: true, title: self.title!)
+            
+        }
+    }
+    
+}

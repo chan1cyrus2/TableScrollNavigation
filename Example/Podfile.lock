@@ -1,0 +1,14 @@
+PODS:
+  - TableScrollNavigation (0.1.0)
+
+DEPENDENCIES:
+  - TableScrollNavigation (from `../`)
+
+EXTERNAL SOURCES:
+  TableScrollNavigation:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TableScrollNavigation: a6e386dc772d52909e45e1d04b9cfae7385c736e
+
+COCOAPODS: 0.39.0

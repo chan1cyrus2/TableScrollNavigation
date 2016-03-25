@@ -1,0 +1,6 @@
+framework module TableScrollNavigation {
+  umbrella header "TableScrollNavigation-umbrella.h"
+
+  export *
+  module * { export * }
+}

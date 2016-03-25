@@ -1,0 +1,26 @@
+{
+  "name": "TableScrollNavigation",
+  "version": "0.1.0",
+  "summary": "A short description of TableScrollNavigation.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TableScrollNavigation",
+  "license": "MIT",
+  "authors": {
+    "Cyrus Chan": "chan1cyrus2@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TableScrollNavigation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "TableScrollNavigation": [
+      "Pod/Assets/*.png",
+      "Pod/Classes/**/*.xib"
+    ]
+  }
+}

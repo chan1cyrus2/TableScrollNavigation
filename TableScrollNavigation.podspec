@@ -9,17 +9,16 @@
 Pod::Spec.new do |s|
   s.name             = "TableScrollNavigation"
   s.version          = "0.1.0"
-  s.summary          = "A short description of TableScrollNavigation."
+  s.summary          = "A subclass of UINavigationController that provides a table on top of navigation bar to show the stack of the navigations"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "This CocoaPod provides the ability to show a stack of navigation on your app through a table at the top of navigation bar. The table is scrolling to maximize the content view. It is similar to the navigation bar you can see in Explore tab of the App Store where users can see their navigation stacks of the categories and sub-categories that they select"
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/TableScrollNavigation"
+  s.homepage         = "https://github.com/chan1cyrus2/TableScrollNavigation"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Cyrus Chan" => "chan1cyrus2@gmail.com" }
@@ -31,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'TableScrollNavigation' => ['Pod/Assets/*.png']
+    'TableScrollNavigation' => ['Pod/Assets/*.png', 'Pod/Classes/**/*.xib']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
