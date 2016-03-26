@@ -1,5 +1,5 @@
 PODS:
-  - TableScrollNavigation (0.1.0)
+  - TableScrollNavigation (0.1.1)
 
 DEPENDENCIES:
   - TableScrollNavigation (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TableScrollNavigation: c393dae26639c2f99b9cd3f2917b56858641c886
+  TableScrollNavigation: 766a564ea65dc4d2acd22672312c65e5580fb888
 
 COCOAPODS: 0.39.0
