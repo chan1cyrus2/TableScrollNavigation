@@ -19,7 +19,7 @@ This CocoaPod provides the ability to show a stack of navigation on your app thr
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Cyrus Chan" => "chan1cyrus2@gmail.com" }
-  s.source           = { :git => "https://github.com/chan1cyrus2/TableScrollNavigation.git", :tag => "v0.1.1" }
+  s.source           = { :git => "https://github.com/chan1cyrus2/TableScrollNavigation.git", :tag => "0.1.1" }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true

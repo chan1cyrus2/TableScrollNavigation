@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TableScrollNavigation: 766a564ea65dc4d2acd22672312c65e5580fb888
+  TableScrollNavigation: 8fa901bd4299f1003454ea219bb954eed686324b
 
 COCOAPODS: 0.39.0
