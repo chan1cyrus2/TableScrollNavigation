@@ -6,7 +6,7 @@
 
 ## Screenshot
 <p align="center">
-  <img width="374" height="686" src="assets/screenshot.gif"/>
+  <img width="374" height="686" src="screenshot.gif"/>
 </p>
 
 
