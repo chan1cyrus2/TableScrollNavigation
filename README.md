@@ -3,7 +3,10 @@
 [![Version](https://img.shields.io/cocoapods/v/TableScrollNavigation.svg?style=flat)](http://cocoapods.org/pods/TableScrollNavigation)
 [![License](https://img.shields.io/cocoapods/l/TableScrollNavigation.svg?style=flat)](http://cocoapods.org/pods/TableScrollNavigation)
 [![Platform](https://img.shields.io/cocoapods/p/TableScrollNavigation.svg?style=flat)](http://cocoapods.org/pods/TableScrollNavigation)
+## Description
+A subclass of UINavigationController that provides a table on top of navigation bar to show the stack of the navigations"
 
+This CocoaPod provides the ability to show a stack of navigation on your app through a table at the top of navigation bar. The table is scrolling to maximize the content view. It is similar to the navigation bar you can see in Explore tab of the App Store where users can see their navigation stacks of the categories and sub-categories that they select
 ## Screenshot
 <p align="center">
   <img width="374" height="686" src="screenshot.gif"/>
